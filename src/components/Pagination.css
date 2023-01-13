@@ -1,0 +1,51 @@
+.page-number-container{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 2vw;
+   padding-right: 3vw;
+}
+
+.previous-page{
+   border : 2px solid rgb(77, 100, 243);
+   padding: 7px 9px;
+   margin-right: 10px;
+   border-radius: 20px;
+}
+
+.previous-page:hover{
+   cursor:pointer;
+   background-color: grey;
+}
+
+.next-page:hover{
+   cursor:pointer;
+   background-color: grey;
+}
+
+.next-page{
+   border : 2px solid rgb(77, 100, 243);
+   padding: 7px 9px;
+   margin-left: 10px;
+   border-radius: 20px;
+}
+
+.page-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(77, 100, 243);
+    font-weight : 500;
+    font-size: 15px;
+    margin-left:5px;
+ }
+
+ .page-number:hover{
+    cursor: pointer;
+    background-color: grey;
+ }
